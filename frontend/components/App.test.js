@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import App from './App'
 import txt from '../i18n/index.json'
-
+//combine all text, labels, and placeholder makes code easier and less tedious
 
 describe('Module 4 Project Tests', () => {
   const allLanguages = [["en", "English Language"], ["esp", "Spanish Language"]]
